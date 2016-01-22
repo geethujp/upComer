@@ -6,12 +6,21 @@
     width: 100%;
     height: 100px;
     background-color: #e3e3e3;
-    z-index: 10;
 }
-.link2
-    {
-        display: none;
-    }
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.link2 {
+    display: none;
+}
+
+#header_item_3 {
+    float: right;
+}
+
 #header_item_1 {
     width: 33.3%;
     float: left;
@@ -20,6 +29,7 @@
     text-align: center;
     padding-top: 25px;
 }
+
 #header_item_2 {
     width: 33.3%;
     float: left;
@@ -28,6 +38,7 @@
     text-align: center;
     padding-top: 25px;
 }
+
 #header_item_3 {
     width: 33.3%;
     float: left;
@@ -37,15 +48,15 @@
     padding-top: 25px;
 }
 
- ul {
+ul {
     list-style: none;
     padding: 10px;
     margin: 0;
-    margin-left: 50px;
+    padding-left: 10%;
 }
 
- li {
-    padding-left: 20px;
+li {
+    padding-left: 10%;
     float: left;
 }
 
@@ -80,50 +91,62 @@ a {
 }
 
 #body_wrapper {
- /*   position: absolute;
-    right: 0;
-    left: 0;
-    top: 100px;*/
-    height: 575px;
+    min-height: 575px;
     background: url("../slices/bg1_repeat.png");
-    overflow: hidden;
+    margin-top: 7%;
+    /*left: 0;
+    width: 100%;*/
+    top: 14%;
+}
+
+#body_content {
+    /*left: 0;
+    right: 0;*/
+    margin: 0 auto;
+    /*min-height: 588px;*/
+    top: 7%;
+    /*text-align: center;*/
+    color: #fff;
+    width: 87%;
+}
+
+#wrapper_content {
+    margin: 0 auto;
+    /*min-height: 588px;*/
+    top: 7%;
+    /*text-align: center;*/
+    width: 87%;
 }
 
 #body_header {
-    position: relative;
-    left: 25%;
-    width: 50%;
+    margin: 0 auto;
+    width: 75%;
+    padding-top: 50px;
 }
 
 #body_header h2 {
     font-size: 52px;
     font-family: 'Asap Bold';
     color: #fff;
-    font-weight: bold;
     text-align: center;
-    padding-top: 25px;
+    line-height: 1.2em;
 }
 
 #body_item1 {
-    position: absolute;
-    left: 27.75%;
-    width: 45%;
-    height: 50px;
+    margin: 0 auto;
+    width: 75%;
     color: #fff;
     text-align: center;
     font-size: 24px;
     font-family: 'Asap';
-    color: #fff;
-    top: 225px;
     line-height: 1.5em;
 }
 
 .body_textbox {
-    position: absolute;
-    left: 37.5%;
-    width: 100%;
+    max-width: 340px;
     height: 50px;
-    top: 360px;
+    padding-top: 25px;
+    margin: 0 auto;
 }
 
 .text_box {
@@ -160,37 +183,27 @@ input::-webkit-input-placeholder {
 }
 
 #body_item2 {
-    position: absolute;
-    left: 37.5%;
-    width: 27%;
+    margin: 0 auto;
     height: 30px;
-    margin-top: 200px;
     text-align: center;
     font-family: 'Asap';
     color: #fff;
-    padding-top: 15px;
+    padding: 50px 0;
     font-size: 16px;
 }
 
 #more_button {
-    position: absolute;
-    left: 47.5%;
+    margin: 0 auto;
     bottom: 0;
+    text-align: center;
 }
 
 #body_content_wrapper {
-    position: absolute;
-    right: 0;
-    left: 0;
     background-color: #f5f5f5;
-    margin-bottom: 50px;
-    top: 670px;
+    /*margin-bottom: 50px;*/
 }
 
 #content_item_1 {
-    position: absolute;
-    right: 0;
-    left: 0;
     margin: 0 auto;
 }
 
@@ -206,8 +219,7 @@ input::-webkit-input-placeholder {
 }
 
 #content_text {
-    position: absolute;
-    margin: 0 400px;
+    margin: 0 auto;
 }
 
 #content_text p {
@@ -219,27 +231,28 @@ input::-webkit-input-placeholder {
 }
 
 #content_item_1_img {
-    padding-top: 75px;
-    margin: 0 88px;
+    margin: 0 auto;
 }
 
 #content_item_1_img img {
     float: left;
     width: 100%;
 }
-
+#space
+{
+    width:4%;
+}
 #content_item {
-    position: absolute;
-    top: 710px;
-    right: 0;
-    left: 0;
-    margin: 100px 50px;
+    width: 87%;
+    /*margin: 0 auto;*/
+    display: table-row;
 }
 
 .item_desc_img {
     width: 50%;
     float: left;
-    margin-bottom: 100px;
+    display: table-cell;
+    margin-top: 100px;
 }
 
 .item_desc_img img {
@@ -264,12 +277,8 @@ input::-webkit-input-placeholder {
 }
 
 #content_text_next {
-    position: absolute;
-    top: 981px;
-    right: 0;
-    left: 0;
-    margin: 100px 50px;
-    padding-top: 50px;
+        width: 87%;
+  margin: 0 auto;
     text-align: right;
 }
 
@@ -277,18 +286,16 @@ input::-webkit-input-placeholder {
     float: left;
 }
 
+
+
 #be_upcomer {
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 2206px;
-    width: 100%;
-    height: 400px;
     background: url("../slices/bg2.png");
+       height: 400px;
 }
 
+ /*
+ 
 .be_upcomer_item {
-    position: absolute;
     left: 10%;
     width: 80%;
     margin-top: 50px;
@@ -332,14 +339,15 @@ input::-webkit-input-placeholder {
     font-weight: normal;
 }
 
-#twitter_info {
-    position: absolute;
+ #twitter_info {
+     position: absolute; 
     right: 0;
     left: 0;
     width: 100%;
     background-color: #333333;
-    top: 2606px;
-}
+   
+} 
+ 
 #twitter_info_img
 {
     position: relative;
@@ -366,19 +374,18 @@ input::-webkit-input-placeholder {
     font-size: 36px;
     font-family: 'Asap Bold'
 }
-#footer
+ 
+ #footer
 {
-    position: absolute;
-    bottom: 0;
+width: 100%;
     right: 0;
     left: 0;
-    height: 50px;
-    top:2935px;
    text-align: center;
 
-}
+} 
+ 
 #footer_img{
     position: absolute;
     left: 37.5%;
     width: 50%;
-}
+} */

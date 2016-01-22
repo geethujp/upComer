@@ -1,0 +1,12 @@
+@media screen and (max-width:650px) {
+    .link1 {
+        display: none;
+    }
+    .link2 {
+        display: inline;
+        float: left;    }
+    .links {
+        display: none;
+    }
+    
+}
